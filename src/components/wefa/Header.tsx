@@ -36,12 +36,13 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <div className="hidden items-center gap-3 xl:flex">
-            <span aria-hidden className="text-lg leading-none">
-              🇬🇧
-            </span>
-            <span aria-hidden className="text-lg leading-none">
-              🇨🇳
-            </span>
+            <a href="#top" className="text-sm text-muted-foreground hover:text-primary">
+              EN
+            </a>
+            <a href="#top" className="text-sm text-muted-foreground hover:text-primary">
+              中文
+            </a>
+
             <a href="#contact" aria-label="LinkedIn" className="text-primary">
               <Linkedin className="h-5 w-5" />
             </a>
